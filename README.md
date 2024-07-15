@@ -53,6 +53,7 @@ php artisan db:seed
 - [](#)listo para ejecute el proyecto.
 
 - [Uso](#uso)
+ 
 Al ingresar al sistema se ve un formulario con:
 Un menu con 2 opciones para el ingreso de datos y listado.
 
@@ -72,4 +73,9 @@ Se habilita un botón que permite guardar las métricas.
   
 Puede ingresar ingresar o seleccionar datos a filtrar, todos los datos son opcionales.
 
+## Requerimientos
+    Laravel 10
+    Php 8.1
+    Guzzle 
+    
 
