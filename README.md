@@ -17,7 +17,7 @@ Este proyecto permite obtener y guardar valores de distintas metricas de Google 
   
   git clone https://github.com/barriosjc/googlespeed.git
   
-  cd googlespeed
+  cd challenge
   
   composer install
   
