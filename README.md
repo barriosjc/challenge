@@ -15,7 +15,7 @@ Este proyecto permite obtener y guardar valores de distintas metricas de Google 
 - 
   Desde la terminal, ingresar a carpeta destino de proyectos.
   
-  git clone https://github.com/barriosjc/googlespeed.git
+  git clone git@github.com:barriosjc/challenge.git
   
   cd challenge
   
