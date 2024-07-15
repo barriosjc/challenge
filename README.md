@@ -76,6 +76,7 @@ Puede ingresar ingresar o seleccionar datos a filtrar, todos los datos son opcio
 ## Requerimientos
     Laravel 10
     Php 8.1
+    MySql 8.3
     Guzzle 
     
 
