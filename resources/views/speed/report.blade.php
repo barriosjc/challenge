@@ -8,7 +8,7 @@
             List of Métrics
         </div>
         <div class="card-body">
-            <form id="reportForm" action="{{ route('listados.generar') }}" method='GET'>
+            <form id="reportForm" action="{{ route('listados.generar') }}" method='POST'>
                 @csrf
 
                 <div class="form-row">

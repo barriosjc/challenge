@@ -84,15 +84,15 @@ class MetricsController extends Controller
         $query = MetricHistoryRun::query();
 // dd($request->query('categories'), $request->has('categories'));
         if ($request->has('categories') ) {
-            foreach ($request->query('categories') as  $value) {
+            foreach ($request->categories as  $value) {
                 $query->where(strtolower($value)."_metric", '>', 0);
             }
         }
-        if ($request->has('url') && !empty($request->query('url'))) {
+        if ($request->has('url') && !empty($request->url)) {
             $query->where('url', '=', $request->url);
         }
-        if ($request->has('strategy_id') && !empty($request->query('strategy_id'))) {
-            $query->where('strategy_id', '=', $request->query('strategy_id'));
+        if ($request->has('strategy_id') && !empty($request->strategy_id)) {
+            $query->where('strategy_id', '=', $request->strategy_id);
         }
 
         $mhr = $query->orderBy('url', 'asc')
